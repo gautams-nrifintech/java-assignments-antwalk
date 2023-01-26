@@ -1,4 +1,4 @@
-package assignments.Jan24.exceptionhandling;
+package assignments.Jan24.assignment1.exceptionhandling;
 
 /*
         AUTHOR: GAUTAM CHANDRA SAHA
