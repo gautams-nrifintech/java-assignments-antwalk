@@ -6,6 +6,7 @@ public abstract class Vehicle {
     private int noOfWheels;
     private String model;
 
+
     public Vehicle(String color, int noOfWheels, String model) {
         this.color = color;
         this.noOfWheels = noOfWheels;

@@ -23,3 +23,15 @@ class Tester {
 
     }
 }
+
+/*
+OUTPUT:
+
+balance in bank A
+100.0
+balance in bank B
+150.0
+balance in bank C
+200.0
+
+ */

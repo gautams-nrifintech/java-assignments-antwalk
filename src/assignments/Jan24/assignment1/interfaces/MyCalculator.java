@@ -24,3 +24,8 @@ public class MyCalculator implements AdvancedArithmetic {
         System.out.println("The divisor sum is: " + new MyCalculator().divisorSum(12));
     }
 }
+
+/*
+OUTPUT
+The divisor sum is: 28
+ */

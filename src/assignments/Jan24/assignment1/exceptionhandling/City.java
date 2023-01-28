@@ -24,14 +24,14 @@ public class City {
 
         String city = MAP.get(zipCode);
         if (city == null)
-            throw new Exception("City not found.".toUpperCase());
+            throw new CityNotFoundException();
 
         return "CITY FOUND: " + city;
     }
 
     public static void main(String[] args) {
         try {
-            System.out.println(new City().findCityByZipCode(737101));
+            System.out.println(new City().findCityByZipCode(73711));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -39,4 +39,19 @@ public class City {
 
 }
 
+/*
+
+OUTPUT:
+
+EXECUTION 1:
+
+CITY FOUND: Gangtok
+
+EXECUTION 2:
+
+assignments.Jan24.assignment1.exceptionhandling.CityNotFoundException: CITY NOT FOUND.
+	at assignments.Jan24.assignment1.exceptionhandling.City.findCityByZipCode(City.java:27)
+	at assignments.Jan24.assignment1.exceptionhandling.City.main(City.java:34)
+
+ */
 
