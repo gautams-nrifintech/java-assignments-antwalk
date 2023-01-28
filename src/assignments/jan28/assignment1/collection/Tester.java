@@ -7,7 +7,6 @@ package assignments.jan28.assignment1.collection;
 
 
 import java.util.*;
-import java.util.function.Function;
 
 public class Tester {
 
