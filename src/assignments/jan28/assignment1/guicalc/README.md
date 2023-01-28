@@ -1,3 +1,3 @@
 # OUTPUT
 
-<img src="./calcimg.jpg"  />
+<img src="./calcimg.jpg" width="200" />
